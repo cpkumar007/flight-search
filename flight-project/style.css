@@ -1,0 +1,260 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("Images/flight background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main_div{
+	position: relative;
+	top: 126px;
+	left: 650px;
+	border: 1px solid black;
+	width: 50vw;
+	height: 70vh;	
+}
+.main_div:hover{
+	background-color: whitesmoke;
+}
+
+.top_container{
+	position: relative;
+	border-bottom: 1px solid black;
+	width: 50vw;
+	height: 6vh;
+}
+.top_container h4{
+	position: absolute;
+	top: 5px;
+	left: 12px;
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+
+/*Below section left main container*/
+.left_container_main{
+	border-right: 1px solid black;
+	position: absolute;
+	width:12vw;
+	height: 64vh;
+}
+#btn1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 3px;
+	border-radius: 9px 11px 0px 0px;
+	cursor: pointer;
+}
+#btn2{
+	position: absolute;
+	top: 10px;
+	right: 71px;
+	padding: 3px;
+	border-radius: 9px 11px 0px 0px;
+	cursor: pointer;
+}
+.details{
+	position: relative;
+	top: 34px;
+	left: 10px;
+	right: 10px;
+	border: 1px solid;
+	width: 170px;
+	height: 22vh;
+}
+.details input{
+	margin-top: 5px;
+	margin-left: 7px;
+	width: 150px;
+}
+.date_dropdown{
+	margin-top: 5px;
+	margin-left: 7px;
+	width: 90%;
+}
+#search_btn{
+	position: absolute;
+	bottom: 10px;
+	left: 7px;
+	padding: 5px;
+}
+.Refine_search{
+	position: absolute;
+	border: 1px solid;
+	top: 210px;
+	left: 10px;
+	width: 90%;
+	height: 20vh;
+}
+.Refine_search p{
+	position: absolute;
+	top: 5px;
+	left: 18px;
+}
+
+.right_container{
+	position: relative;
+	left: 192px;
+	width:38vw;
+	height: 64vh;
+}
+.header_r1{
+	position: absolute;
+	width:38vw;
+	height: 7vh;
+	border-bottom: 1px solid black;
+}
+.header_r1 p{	
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	font-size: 23px;
+	letter-spacing: 1px;
+}
+.header_r2{
+	position: absolute;
+	right: 6px;
+	top: 8px;
+	width: 8vw;
+}
+
+/*1st fare div start*/
+.fare_div_1{
+	position: relative;
+	border: 1px solid;
+	top: 46px;
+	left: 9px;
+	right: 7px;
+	width: 36vw;
+	height: 15vh;
+	padding: 6px;
+}
+.fare_div_1 p strong{
+	position: absolute;
+	left: 5px;
+	padding: 2px;
+}
+.f1st_div{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	padding: 9px;
+}
+.f2nd_div{
+	position: absolute;
+	left: 158px;
+	top: 30px;
+	padding: 9px;
+}
+.f3rd_div{
+	position: absolute;
+	border: 1px solid black;
+	right: 10px;
+	top: 7px;
+	width: 110px;
+	height: 78px;
+}
+.btn1{
+	position: absolute;
+	right: 10px;
+	bottom: 7px;
+	padding: 2px;
+	width: 112px
+}
+/*first div end here*/
+
+
+
+/*2nd Div Section start */
+.fare_div_2{
+	position: relative;
+	border: 1px solid;
+	top: 40px;
+	left: 9px;
+	right: 7px;
+	width: 36vw;
+	height: 15vh;
+	padding: 6px;
+}
+.fare_div_2 p strong{
+	position: absolute;
+	left: 5px;
+	padding: 2px;
+}
+.f1st_div{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	padding: 9px;
+}
+.f2nd_div{
+	position: absolute;
+	left: 158px;
+	top: 30px;
+	padding: 9px;
+}
+.f3rd_div{
+	position: absolute;
+	border: 1px solid black;
+	right: 10px;
+	top: 7px;
+	width: 110px;
+	height: 78px;
+}
+.btn1{
+	position: absolute;
+	right: 10px;
+	bottom: 7px;
+	padding: 2px;
+	width: 112px
+}
+/*2nd div end*/
+
+/*This is third and last div section*/
+.fare_div_3{
+	position: relative;
+	border: 1px solid;
+	top: 35px;
+	left: 9px;
+	right: 7px;
+	width: 36vw;
+	height: 15vh;
+	padding: 6px;
+}
+.fare_div_3 p strong{
+	position: absolute;
+	left: 5px;
+	padding: 2px;
+}
+.f1st_div{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	padding: 9px;
+}
+.f2nd_div{
+	position: absolute;
+	left: 158px;
+	top: 30px;
+	padding: 9px;
+}
+.f3rd_div{
+	position: absolute;
+	border: 1px solid black;
+	right: 10px;
+	top: 7px;
+	width: 110px;
+	height: 78px;
+}
+.btn1{
+	position: absolute;
+	right: 10px;
+	bottom: 7px;
+	padding: 2px;
+	width: 112px
+}
